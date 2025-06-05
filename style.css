@@ -1,0 +1,27 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+#sudoku-board {
+  display: grid;
+  grid-template-columns: repeat(9, 80px);
+  grid-template-rows: repeat(9, 80px);
+  gap: 2px;
+  margin: 20px auto;
+  width: fit-content;
+}
+
+input {
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  font-size: 18px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+input:focus {
+  border: 2px solid #007bff;
+  outline: none;
+}
